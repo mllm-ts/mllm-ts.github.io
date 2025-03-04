@@ -39,19 +39,59 @@
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
 </head>
+
+
 <body>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-3 publication-title">An initiative to advance time series analysis in the era of multimodal LLMs</h1>
+            <h1 class="title is-5 publication-title">(Contact: <a href="https://xiongxiaoxu.github.io/" target="_blank">Xiongxiao Xu, 
+                            <a href="https://www.cs.emory.edu/~kshu5/" target="_blank">Kai Shu</a>)
+            </h1>
+            <ul>
+              <div class="column is-one-third">
+              <h2 class="title is-5">Table of Contents</h2>
+              </div>
+
+              <div class="columns is-centered has-text-centered">
+              <div class="column is-four-fifths">
+                <div class="content has-text-justified">
+                    <a href="#tsad">- Can Multimodal LLMs Perform Time Series Anomaly Detection? </a>
+                </div>
+
+                <div class="content has-text-justified">
+                     <a href="#survey">- Beyond Numbers: Advancing Time Series Analysis in the Era of Multimodal LLMs </a>
+                </div>
+              </div>
+              </div>
+
+            </ul>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 
 <section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Can Multimodal LLMs Perform Time Series Anomaly Detection?</h1>
+          <h1 class="title is-1 publication-title" id="tsad">Can Multimodal LLMs Perform Time Series Anomaly Detection?</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://xiongxiaoxu.github.io/">Xiongxiao Xu</a><sup>1</sup>,</span>
+              <a href="https://xiongxiaoxu.github.io/">Xiongxiao Xu</a><sup>1</sup>,
+            </span>
             <span class="author-block">
-              <a href="https://haoranwang18.github.io/">Haoran Wang</a><sup>2</sup>,</span>
+              <a href="https://haoranwang18.github.io/">Haoran Wang</a><sup>2</sup>,
+            </span>
             <span class="author-block">
               <a href="https://yueqingliang1.github.io/">Yueqing Liang</a><sup>1</sup>,
             </span>
@@ -113,7 +153,6 @@
   </div>
 </section>
 
-
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
@@ -160,8 +199,6 @@
   </div>
 </section>
 
-
-
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
@@ -170,9 +207,124 @@
   author={Xu, Xiongxiao and Wang, Haoran and Liang, Yueqing and Yu, Philip S and Zhao, Yue and Shu, Kai},
   journal={arXiv preprint arXiv:2502.17812},
   year={2025}
-}</code></pre>
+}
+</code></pre>
   </div>
 </section>
+
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title" id="survey">Beyond Numbers: Advancing Time Series Analysis in the Era of Multimodal LLMs</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://xiongxiaoxu.github.io/">Xiongxiao Xu</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://viterbi-web.usc.edu/~yzhao010/">Yue Zhao</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=D0lL1r0AAAAJ&hl=en">Philip S. Yu</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.cs.emory.edu/~kshu5/">Kai Shu</a><sup>4</sup>,
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Illinois Institute of Technology,</span>
+            <span class="author-block"><sup>2</sup>University of Southern California,</span>
+            <span class="author-block"><sup>3</sup>University of Illinois Chicago,</span>
+            <span class="author-block"><sup>4</sup>Emory University</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+      <!--           <a href="https://arxiv.org/pdf/2502.17812"
+                   class="external-link button is-normal is-rounded is-dark"> -->
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+    <!--             <a href="https://arxiv.org/abs/2502.17812"
+                   class="external-link button is-normal is-rounded is-dark"> -->
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/mllm-ts/Awesome-Multimodal-LLMs-Time-Series"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Paper List</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body has-text-centered">
+      <img src="./static/images/mllmts.png" alt="teaser" height="80%" width="80%">
+      <h2 class="subtitle">
+        Time series exhibits diverse modalities, including numbers, text, images, graphs, audio, and tables, enabling multimodal LLMs to process them effectively
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <!-- <div class="container is-max-desktop"> -->
+    <!-- Image -->
+    <!-- <br /> -->
+<!--     <figure style="text-align: center;">
+      <img src="static/images/teaser.png" alt="teaser">
+    </figure> -->
+  <!-- </div> -->
+  <!-- <br> -->
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          The rapid advancements in Multimodal Large Language Models (MLLMs) have garnered significant research attention, revolutionizing various domains, including time series analysis. Notably, time series data can be represented in diverse modalities, making it highly compatible with the progress of MLLMs. This survey provides a comprehensive overview of time series analysis in the era of multimodal LLMs. We systematically summarize existing work from two perspectives: data (taxonomy of time series modalities) and models (taxonomy of multimodal LLMs). From the data perspective, we emphasize that time series, traditionally represented as a sequence of numbers with temporal order, can also be expressed in modalities such as text, images, graphs, audio, and tables. From the model perspective, we explore MLLMs that are either applicable or hold potential for specific time series modalities. Finally, we identify future research directions and key challenges at the intersection of time series and MLLMs, including the video modality, reasoning, agents, interpretability, and hallucination. To support ongoing research, we maintain a GitHub repository to track the latest developments in this rapidly evolving field at <a href="https://github.com/mllm-ts/Awesome-Multimodal-LLMs-Time-Series">HERE</a>.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>Arxiv will be coming very soon.
+</code></pre>
+  </div>
+</section>
+
 
 
 <footer class="footer">
